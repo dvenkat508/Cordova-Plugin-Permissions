@@ -1,0 +1,25 @@
+{
+  "name": "cordova.plugins.permission",
+  "version": "1.0.0",
+  "description": "Cordova plugin to ask runtime permissions.",
+  "cordova": {
+    "id": "cordova.plugins.permission",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvenkat507/Cordova-Plugin-Permissions.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Venkat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvenkat507/Cordova-Plugin-Permissions/issues"
+  },
+  "homepage": "https://github.com/dvenkat507/Cordova-Plugin-Permissions#readme"
+}
