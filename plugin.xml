@@ -5,7 +5,7 @@
     <name>permission</name>
     
     <platform name="android">
-        <js-module name="permission" src="www/permission.js">
+        <js-module name="permission" src="www/android/permission.js">
             <clobbers target="cordova.plugins.permission" />
         </js-module>
         <config-file parent="/*" target="res/xml/config.xml">
