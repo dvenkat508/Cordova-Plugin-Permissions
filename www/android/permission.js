@@ -36,21 +36,21 @@ exports.permissionStatus = {
 };
 
 exports.checkPermission = function (success, error, permission) {
-    exec(success, error, 'Permissions', 'checkPermission', [permission]);
+    exec(success, error, 'permission', 'checkPermission', [permission]);
 };
 
 exports.requestPermission = function(success, error, permission){
-    exec(success, error, 'Permissions', 'requestPermission', [permission]);
+    exec(success, error, 'permission', 'requestPermission', [permission]);
 }
 
 exports.forceAskPermission = function(success, error){
-    exec(success, error, 'Permissions', 'forceAskPermission', []);
+    exec(success, error, 'permission', 'forceAskPermission', []);
 }
 
 exports.checkPermissions = function(success, error, permissions){
-    exec(success, error, 'Permissions', 'checkPermissions', permissions);
+    exec(success, error, 'permission', 'checkPermissions', permissions);
 }
 
 exports.requestPermissions = function(success, error, permissions){
-    exec(success, error, 'Permissions', 'requestPermissions', permissions);
+    exec(success, error, 'permission', 'requestPermissions', permissions);
 }

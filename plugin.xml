@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova.plugins.permission" version="1.0.0" 
+<plugin id="cordova.plugin.permission" version="1.0.0" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>permission</name>
     
     <platform name="android">
-        <js-module name="permission" src="www/permission.js">
+        <js-module name="permission" src="www/android/permission.js">
             <clobbers target="cordova.plugins.permission" />
         </js-module>
         <config-file parent="/*" target="res/xml/config.xml">
