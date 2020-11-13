@@ -79,6 +79,7 @@ App can never ask for permission again.
 The only way around this is to instruct the user to manually change the permission on the app permissions page in Settings.
 - `GRANTED` - User granted access to this permission.<br>
 <br>
+
 ### checkPermission()
 This function returns the permission status for a given permission. 
 #### Parameters
